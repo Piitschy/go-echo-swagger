@@ -41,13 +41,13 @@ func main() {
 }
 
 // HealthCheck godoc
+// @Router / [get]
 // @Summary Show the status of server.
 // @Description get the status of server.
 // @Tags root
 // @Accept */*
 // @Produce json
 // @Success 200 {object} Message
-// @Router / [get]
 func HealthCheck(c echo.Context) error {
 	return c.JSON(http.StatusOK, Message{
 		Data: "Server is up and running",
