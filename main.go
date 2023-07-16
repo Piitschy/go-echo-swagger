@@ -7,7 +7,7 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 	echoSwagger "github.com/swaggo/echo-swagger"
 
-	_ "go-echo-swagger/docs"
+	_ "github.com/Piitschy/go-echo-swagger/docs"
 )
 
 // @title Echo Swagger Example API
